@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang=”es”>
+<head>
+    <meta http-equiv=”Content-Type” content=”text/html; charset=UTF-8″ />
+    <title>Pasteleria el morrito</title>
+    <link rel="stylesheet" href="../Sources/Css/General.css">
+</head>
+<body>
+<div class="BodyContainer">
+    <div id="navbar">
+        <div class="SmallLogo">
+            <img src="../Sources/Img/Cake-Logo.png" width="50px" alt="Cake-Logo">
+        </div>
+        <ul>
+            <li>
+                <a href="/">Inicio</a>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <a href="../Forms/NuevoPedido.html">Nuevo Pedido</a>
+            </li>
+            <li>
+                <a href="../Forms/Pedidos.html">Pedidos</a>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <a href="../Catalogos/Sabores.html">Sabores</a>
+            </li>
+            <li>
+                <a href="../Catalogos/Adornos.html">Adornos</a>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <a href="#Contact">Contacto</a>
+            </li>
+        </ul>
+        
+        
+    </div>
+    <div id="Page">
+        <div class="HeaderPage">
+            <img src="../Sources/Img/Cake-Logo.png" alt="Cake-Logo">
+            <h1>Pasteleria el morrito</h1>
+        </div>
+        <div id="MainContent" class="MainContent">
+            <div class="Title">
+                <h1>Nuevo Pedido</h1>
+            </div>
+            <div>
+                
+                <div class="form">
+                    <div class="row">
+                        <div>
+                            <label for="Nombre">Nombre</label>
+                        </div>
+                        <div>
+                            <input type="text" name="Nombre" id="Nombre">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div>
+                            <label for="Tel">Teléfono</label>
+                        </div>
+                        <div>
+                            <input type="tel" name="PrTelecio" id="Tel">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div>
+                            <label for="Email">Correo Electrónico</label>
+                        </div>
+                        <div>
+                            <input type="email" name="Email" id="Email">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div>
+                            <label for="Descripcion">Descripcion del pedido</label>
+                        </div>
+                        <div>
+                            <textarea name="Descripcion" id="Descripcion" rows="10" cols="50">Escriba su pedido aqui</textarea>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div>
+                            <label for="TipoAdorno">Adornos</label>
+                        </div>
+                        <div>
+                            <label><input type="checkbox" id="Abox1" value="1"> Comestible</label><br>
+                            <label><input type="checkbox" id="Abox2" value="2"> No Comestible</label><br>
+                            <label><input type="checkbox" id="Abox3" value="3"> No Comestible y Flamable</label><br>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div>
+                            <label for="TipoAdorno">Sabores</label>
+                        </div>
+                        <div>
+                            <label><input type="checkbox" id="Sbox1" value="1"> Chocolate</label><br>
+                            <label><input type="checkbox" id="Sbox2" value="2"> Vainilla</label><br>
+                            <label><input type="checkbox" id="Sbox3" value="3"> Fresa</label><br>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div>
+                            <button type="submit" class="btn">Enviar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+</body>
+<footer>
+    <h2>Informacion de contacto</h2>
+    <div id="Contact" class="ContactFooter">
+        <div class="sucursal-container">
+            <p class="sucursal-title">Sucursal 1</p>
+            <div>
+                <div class="SucursalImg">
+                    <img src="../Sources/Img/MapMark.png">
+                </div>
+                <div>
+                    <h3 class="">Sucursal 1<br>
+                        <p class="SmallFontSize">
+                            Av. Convención de 1914 Norte #001<br>
+                            Tel(s): 449XXXXXXX<br>
+                            Horarios: Lunes a Viernes de 9:00am a 6:30pm<br> y Sábados 9:00am a 2:30pm<br>
+                        </p>
+                    </h3>
+                </div>
+            </div>
+        </div>
+        <div class="sucursal-container">
+            <p class="sucursal-title">Sucursal 2</p>
+            <div>
+                <div class="SucursalImg">
+                    <img src="../Sources/Img/MapMark.png">
+                </div>
+                <div>
+                    <h3 class="">Sucursal 2<br>
+                        <p class="SmallFontSize">
+                            Av. Siempre viva #001<br>
+                            Tel(s): 449XXXXXXX<br>
+                            Horarios: Lunes a Viernes de 9:00am a 6:30pm<br> y Sábados 9:00am a 2:30pm<br>
+                        </p>
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div style="float:right">
+        <h4>S Macias 2022 All Rights Reserved</h4>
+    </div>
+</footer>
+</html>

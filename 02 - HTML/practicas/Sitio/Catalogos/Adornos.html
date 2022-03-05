@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang=”es”>
+<head>
+    <meta charset=”UTF-8″ />
+    <title>Pasteleria el morrito</title>
+    <link rel="stylesheet" href="../Sources/Css/General.css">
+</head>
+<body>
+<div class="BodyContainer">
+    <div id="navbar">
+        <div class="SmallLogo">
+            <img src="../Sources/Img/Cake-Logo.png" width="50px" alt="Cake-Logo">
+        </div>
+        <ul>
+            <li>
+                <a href="/">Inicio</a>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <a href="../Forms/NuevoPedido.html">Nuevo Pedido</a>
+            </li>
+            <li>
+                <a href="../Forms/Pedidos.html">Pedidos</a>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <a href="../Catalogos/Sabores.html">Sabores</a>
+            </li>
+            <li>
+                <a href="../Catalogos/Adornos.html">Adornos</a>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <a href="#Contact">Contacto</a>
+            </li>
+        </ul>
+        
+        
+    </div>
+    <div id="Page">
+        <div class="HeaderPage">
+            <img src="../Sources/Img/Cake-Logo.png" alt="Cake-Logo">
+            <h1>Pasteleria el morrito</h1>
+        </div>
+        <div id="MainContent" class="MainContent">
+            <div class="Title">
+                <h1>Lista de Adornos</h1>
+            </div>
+            <div class="TableContainer">
+                <table>
+                    <thead>
+                        <th style="width: 200px;">Id</th>
+                        <th>Descripcion</th>
+                        <th>Tipo</th>
+                        <th>Precio</th>
+                    </thead>
+                    <tr>
+                        <td>1</td>
+                        <td>Nombre en Chocolate</td>
+                        <td>Comestible</td>
+                        <td>$10</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Dibujo con betun</td>
+                        <td>Comestible</td>
+                        <td>$10</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Figura</td>
+                        <td>No Comestible</td>
+                        <td>$10</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Velas</td>
+                        <td>No Comestible y Flamable</td>
+                        <td>$10</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="Title">
+                <h1>Nuevo Adorno</h1>
+            </div>
+            <div>
+                <div class="form">
+                    <div class="row">
+                        <div>
+                            <label for="Descripcion">Descripcion</label>
+                        </div>
+                        <div>
+                            <input type="text" name="Descripcion" id="Descripcion">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div>
+                            <label for="TipoAdorno">Tipo de Adorno</label>
+                        </div>
+                        <div>
+                            <select name="TipoAdorno" id="TipoAdorno">
+                                <option value="1">Comestible</option>
+                                <option value="2">No Comestible</option>
+                                <option value="3">No Comestible y Flamable</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div>
+                            <label for="DePrecioscripcion">Precio</label>
+                        </div>
+                        <div>
+                            <input type="number" min="0.1" name="Precio" id="Precio">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div>
+                            <button type="submit" class="btn">Agregar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+</body>
+<footer>
+    <h2>Informacion de contacto</h2>
+    <div id="Contact" class="ContactFooter">
+        <div class="sucursal-container">
+            <p class="sucursal-title">Sucursal 1</p>
+            <div>
+                <div class="SucursalImg">
+                    <img src="../Sources/Img/MapMark.png">
+                </div>
+                <div>
+                    <h3 class="">Sucursal 1<br>
+                        <p class="SmallFontSize">
+                            Av. Convención de 1914 Norte #001<br>
+                            Tel(s): 449XXXXXXX<br>
+                            Horarios: Lunes a Viernes de 9:00am a 6:30pm<br> y Sábados 9:00am a 2:30pm<br>
+                        </p>
+                    </h3>
+                </div>
+            </div>
+        </div>
+        <div class="sucursal-container">
+            <p class="sucursal-title">Sucursal 2</p>
+            <div>
+                <div class="SucursalImg">
+                    <img src="../Sources/Img/MapMark.png">
+                </div>
+                <div>
+                    <h3 class="">Sucursal 2<br>
+                        <p class="SmallFontSize">
+                            Av. Siempre viva #001<br>
+                            Tel(s): 449XXXXXXX<br>
+                            Horarios: Lunes a Viernes de 9:00am a 6:30pm<br> y Sábados 9:00am a 2:30pm<br>
+                        </p>
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div style="float:right">
+        <h4>S Macias 2022 All Rights Reserved</h4>
+    </div>
+</footer>
+</html>
