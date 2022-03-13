@@ -1,0 +1,365 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section{
+    height: auto;
+}
+
+footer{
+    margin-top: 5vh;
+}
+
+h1{
+    font-size: 28px;
+}
+
+p{
+    color: #738198;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 0px;
+}
+
+.SmallParagraph{
+    font-size: 12px;
+}
+
+.MediumParagraph{
+    font-size: 16px;
+}
+
+.TitleSize1 {
+    font-size: 62px;
+}
+
+.TitleSize2 {
+    font-size: 42px;
+}
+
+h2, h3, h4, h5, h6, .Font-DarkBlue{
+    color: #1f3e72;
+}
+
+body{
+    margin: 0px;
+}
+
+button{
+    font-size: 20px;
+}
+
+.HeaderContainer{
+    background-image: url("../img/img_1.png");
+    background-repeat: no-repeat;
+    background-position-x: right;
+    width: 100%;
+    height: 100vh;
+    background-size: 81vh;
+}
+
+.Img2Back{
+    background-image: url("../img/img_2.png");
+    background-position-x: left;
+}
+
+.Img3Back{
+    background-image: url("../img/img_3.png");
+}
+
+.WhiteBackVanished{
+    background: white;
+    opacity: 90%;
+}
+
+.FullContainer{
+    width: 100%;
+    height: 15vh;
+    position: relative;
+}
+
+.FullContainerSmall{
+    width: 100%;
+    height: 10vh;
+    position: relative;
+}
+
+.flex-container {
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.align-center-margin-top {
+    text-align: center;
+}
+
+.align-center-start{
+    align-items: center;
+    text-align: start;
+}
+
+.align-center-margin-top > * {
+    margin-top: 10%;
+}
+
+.iconSmall{
+    padding: 5px;
+    background-color: #edf2ff;
+    color: #3453cf;
+    border-radius: 3px;
+    font-size: 20px;
+    height: fit-content;
+}
+
+.iconMedium{
+    padding: 10px;
+    color: #3453cf;
+    background-color: #edf2ff;
+    border-radius: 5px;
+    font-size: 30px;
+    height: fit-content;
+}
+
+.fa-caret-down, .fa-caret-up{
+    padding: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.PanelMedium{
+    width: 15vw;
+    height: 20vh;
+    border-radius: 10px;
+}
+
+.Panel{
+    border: 1px solid #dddddd61;
+    margin: 10px;
+    padding: 20px;
+}
+
+.NoShadow{
+    box-shadow: none !important;
+}
+
+.PanelLarge{
+    width: 30vw;
+    height: 10vh;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.PanelLarge-Open{
+    width: 30vw;
+    height: fit-content;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.Panel:hover{
+    box-shadow: 2px 2px 2px 1px rgb(168, 168, 168);
+}
+
+.iconSmall-Yellow{
+    padding: 5px;
+    background-color: #fffbe9;
+    border-radius: 3px;
+    font-size: 20px;
+    color: #ffd012;
+}
+
+.CornerRadiusSmall{
+    border-radius: 5px;
+}
+
+.CornerRadius{
+    border-radius: 10px;
+}
+
+.HalfContainer{
+    width: 50%;
+    height: 50vh;
+    position: relative;
+    white-space: nowrap;
+}
+
+.Wrap {
+    white-space: normal;
+}
+
+.HalfContainerMedium{
+    width: 50%;
+    height: 25vh;
+    position: relative;
+}
+
+.HalfContainerSmall{
+    width: 50%;
+    height: 10vh;
+    position: relative;
+}
+
+.Centrar{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.Derecha{
+    float: right;
+}
+
+.DistribuirElementos{
+    justify-content: space-between;
+    display: flex;
+}
+
+.ElementsOnLine{
+    display: -webkit-inline-box;
+}
+
+.SmallControlsBanner{
+    white-space: nowrap;
+}
+
+.SmallControlsBanner > *{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.col-80{
+    width: 80%;
+}
+
+.col-60{
+    width: 60%;
+}
+
+.col-50{
+    width: 50%;
+}
+
+.col-40{
+    width: 40%;
+}
+
+.col-30{
+    width: 30%;
+}
+
+.marg-Y-20{
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+.marg{
+    margin-top: 20vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 20vh;
+}
+
+.marg-Top-10{
+    margin-top: 10vh;
+}
+
+.marg-Top-20{
+    margin-top: 20vh;
+}
+
+.marg-Top-3{
+    margin-top: 3vh;
+}
+
+.marg-left-20{
+    margin-left: 20vw;
+}
+
+.marg-left-5{
+    margin-left: 5vw;
+}
+
+.marg-left-2{
+    margin-left: 2vw;
+}
+
+.marg-left-10{
+    margin-left: 10vw;
+}
+
+.padd-left-3{
+    padding-left: 3vw;
+}
+
+.padd-Top-5{
+    padding-top: 5vh;
+}
+
+.padd-Bot-5{
+    padding-bottom: 5vh;
+}
+
+.padd-Between-5{
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.btn-no-background{
+    background-color: inherit;
+    border: 0px;
+    color: #738198;
+}
+
+.btn{
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-radius: 5px;
+    border: 0px;
+    font-weight: bold;
+}
+
+.btn-blue{
+    background-color: #405ed2;
+    color: white;
+    box-shadow: 7px 7px 7px rgb(168 168 168);
+}
+
+.btn-low-blue-F-Blue{
+    background-color: #f1f5ff;
+    color: #405ed2;
+    font-weight: bold;
+    font-size: 16px;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+}
+
+.btn-low-blue-F-Blue:hover{
+    background-color: #405ed2;
+    color: #f8fafc;
+    box-shadow: 7px 7px 7px rgb(168 168 168);
+}
+
+.BlueBold{
+    color: #486cf7;
+    font-weight: bold;
+}
+
+.footerBackground{
+    background-color: #eef3ff;
+}
+
+.FooterElements > div > p, .FooterElements > div > div > p {
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+
+
+
+
