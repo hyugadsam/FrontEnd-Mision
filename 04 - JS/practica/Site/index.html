@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/css/CarouselFromMaterializecss.css">
+    <link rel="stylesheet" href="src/css/General.css">
+    
+</head>
+
+<body>
+    <div class="row">
+        <div class="row col-80">
+            <div class="col-45 Carcasa">
+                <div class="row">
+                    <div class="Circulo" style="background-color: white;">
+                        <div class="Circulo Circulo80Percent" style="float: right;">
+                            <div class="Circulo Circulo80Percent" style="background-color: #0bcdff; float: left;"></div>
+                        </div>
+                    </div>
+                    <div class="CuadroPantalla marg-top-20">
+                        <div class="Pantalla row carousel" id="ContenedorImagenes" style="overflow: hidden;">
+                            <a class="carousel-item">
+                                <img id="imgPokemon" class="marg-auto" src="src/images/Pokeball.png" height="100%" alt="imgPokemon">
+                            </a>
+                            <a class="carousel-item">
+                                <img id="imgPokemon" class="marg-auto" src="src/images/Pokeball.png" height="100%" alt="imgPokemon">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="Circulo Circulo-8" style="background-color: black;"></div>
+                    <div class="row marg-auto">
+                        <div class="btn-select"></div>
+                        <div style="width: 10px;"></div>
+                        <div class="btn-select"></div>
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="CuadroControles padd-15-px marg-auto">
+                        <div class="marg-auto">
+                            <div class="row">
+                                <label for="PrimerTipo" style="width: 110px;" class="marg-auto nowrap">Primer tipo:</label>
+                                <div style="width: 5px;"></div>
+                                <select name="PrimerTipo" class="marg-auto" id="PrimerTipo">
+                                    <option value="-1">--Seleccione--</option>
+                                </select>
+                            </div>
+
+                            <div class="row" style="margin-top: 5px;">
+                                <label for="SegundoTipo" style="width: 110px;" class="marg-auto nowrap">Segundo tipo:</label>
+                                <div style="width: 5px;"></div>
+                                <select name="SegundoTipo" class="marg-auto" id="SegundoTipo">
+                                    <option value="-1">--Seleccione--</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="row padd-top-3" >
+                    <button class="btn btn-blue marg-auto" onclick="SearchPokemons()" >Buscar</button>
+                </div>
+
+            </div>
+
+            <div class="col-10 Carcasa ">
+                <div class="col-80 Separador marg-auto"></div>
+            </div>
+
+            <div class="col-45 Carcasa">
+                <div class="row marg-top-20">
+                    <div class="CuadroEstadisticas marg-auto">
+                        <div class="row padd-15-px">
+                            <label class="LabelType">Nombre: &nbsp;</label>
+                            <label class="LabelType" id="NombrePokemon"></label>
+                        </div>
+                        <div class="row padd-15-px">
+                            <label class="LabelType">Tipo: </label>
+                            <div id="ListaTiposPokemon">
+                            </div>
+                        </div>
+
+                        <div class="row padd-15-px">
+                            <label class="LabelType">Habilidades: &nbsp;</label>
+                            <div id="ListaHabilidadesPokemon">
+                            </div>
+                        </div>
+
+                        <div class="row" id="StatsBar" style="overflow: auto;">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="marg-top-5">
+                    <div id="ListaPokemons" class="CuadroListaPokemons marg-auto">
+                        <p>Buscar algo para llenar esta lista</p>
+                    </div>
+                </div>
+                <div class="row padd-top-3" style="justify-content: space-around;">
+                    <div class="CuadroDatos">
+                        <div id="AlturaPokemon">
+
+                        </div>
+                    </div>
+                    <div class="CuadroDatos">
+                        <div id="PesoPokemon">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-20 ">
+            <div style="width: 100%;">
+                <img src="src/images/Pokemon_logo.svg.png" style="width: 100%;" class="marg-auto" alt="Pokemon Logo">
+                <h1 style="text-align: center;">Pokedex</h1>
+                <h1 style="text-align: center;">By Sam</h1>
+            </div>
+        </div>
+    </div>
+
+</body>
+<footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="src/js/General.js"></script>
+</footer>
+</html>
